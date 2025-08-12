@@ -62,7 +62,7 @@ export async function getLessonsByCourse(courseId: string): Promise<Lesson[]> {
       })
       .props(['id', 'title', 'slug', 'metadata'])
       .depth(1)
-      .sort({ 'metadata.lesson_number': 1 });
+      .sort('metadata.lesson_number');
     
     return response.objects as Lesson[];
   } catch (error) {
