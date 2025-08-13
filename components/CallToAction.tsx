@@ -20,7 +20,7 @@ export default function CallToAction() {
           </Link>
           <Link 
             href="/courses"
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-primary-900 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-gray-900 transition-colors duration-200"
           >
             Learn More
           </Link>
