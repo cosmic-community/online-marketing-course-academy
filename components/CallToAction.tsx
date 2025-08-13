@@ -14,7 +14,7 @@ export default function CallToAction() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link 
             href="/courses"
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-xl hover:bg-blue-700 hover:text-white transition-colors duration-200"
+            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-xl hover:bg-blue-500 hover:text-white hover:shadow-lg transition-all duration-200"
           >
             View All Courses
           </Link>
