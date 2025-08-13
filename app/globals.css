@@ -68,10 +68,21 @@
 
   .btn-primary {
     @apply bg-primary-900 text-white hover:bg-primary-800 transition-all duration-200 px-6 py-3 rounded-lg font-medium shadow-sm hover:shadow-md;
+    /* Ensure text stays white on hover */
+    color: white !important;
+  }
+
+  .btn-primary:hover {
+    color: white !important;
   }
 
   .btn-secondary {
     @apply bg-white text-primary-900 border border-primary-300 hover:border-primary-400 hover:bg-primary-50 transition-all duration-200 px-6 py-3 rounded-lg font-medium shadow-sm;
+    /* Ensure text stays readable on hover */
+  }
+
+  .btn-secondary:hover {
+    @apply text-primary-900;
   }
 
   .card {

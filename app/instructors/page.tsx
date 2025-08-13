@@ -29,7 +29,7 @@ export default async function InstructorsPage() {
       <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
               Meet Our Expert Instructors
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
@@ -150,7 +150,7 @@ export default async function InstructorsPage() {
       {/* Call to Action */}
       <section className="bg-gray-900 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-3xl font-bold mb-6">
+          <h3 className="text-3xl font-bold mb-6 text-white">
             Ready to Learn from the Best?
           </h3>
           <p className="text-xl text-gray-300 mb-8">
@@ -165,7 +165,7 @@ export default async function InstructorsPage() {
             </a>
             <a
               href="/#features"
-              className="inline-flex items-center justify-center px-8 py-3 border border-gray-600 hover:border-gray-500 text-white font-medium rounded-lg transition-colors duration-200"
+              className="inline-flex items-center justify-center px-8 py-3 border border-gray-600 hover:border-gray-500 hover:bg-gray-800 text-white font-medium rounded-lg transition-all duration-200"
             >
               Learn More
             </a>
