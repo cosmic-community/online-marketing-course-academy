@@ -146,32 +146,6 @@ export default async function InstructorsPage() {
           )}
         </div>
       </section>
-
-      {/* Call to Action */}
-      <section className="bg-gray-900 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-3xl font-bold mb-6 text-white">
-            Ready to Learn from the Best?
-          </h3>
-          <p className="text-xl text-gray-300 mb-8">
-            Browse our courses and start learning from industry experts today
-          </p>
-          <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-            <a
-              href="/courses"
-              className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200"
-            >
-              View All Courses
-            </a>
-            <a
-              href="/#features"
-              className="inline-flex items-center justify-center px-8 py-3 border border-gray-600 hover:border-gray-500 hover:bg-gray-800 text-white font-medium rounded-lg transition-all duration-200"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
