@@ -12,7 +12,7 @@ export default function Hero() {
           </div>
           
           <h1 className="font-bold mb-8 leading-tight">
-            Master Digital Marketing
+            The Ultimate Digital Marketing Guide
             <span className="block gradient-text mt-2">
               Build Skills That Matter
             </span>
